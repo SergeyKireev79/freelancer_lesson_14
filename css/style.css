@@ -1,0 +1,203 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900display=swap);
+.main{
+   font-family: Roboto;
+      color: #F5F5F5;
+      padding-top: 150px;
+}
+.our-impact__container { 
+   display: flex;
+   position: relative;
+   max-width: 1440px;
+   background-color:#29C3BE;
+   margin: 0 auto 50px auto;
+   padding: 113px 264px 137px 208px;
+   flex-direction: column;
+   }
+   .our-impact__container::before{
+      content:url('../img/blob.png');
+	   position: absolute;
+      left: 628px;
+      top: 0px;
+   }
+   .our-impact__doggy {
+
+      position: absolute;
+      top: -80px;
+      left: 732px;
+      width: 498px;
+      height: 315px;
+   }
+   
+.our-impact__subtitle {
+position: relative;
+max-width: 308px;
+font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+margin-bottom: 35px;
+padding-left: 32px;
+}
+.our-impact__subtitle::before{
+   content:url('../img/mark.svg');
+   width: 17px;
+   height: 17px;
+   position: absolute;
+   left: -6px;
+   top: -1px;
+}
+.our-impact__title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   max-width: 411px;
+   margin-bottom: 80px;
+  }
+ 
+.our-impact__content {
+   display: flex;
+   gap: 24px;
+   flex-wrap: wrap;
+   width: 105.4%;   
+}
+.our-impact__impact {
+   position: relative;
+   padding: 0px 0px 10px 88px;
+   flex: 0 0 237px;
+   }
+
+.our-impact__impact_baths::before {
+   content: url('../img/dog_duckling.svg');
+   position: absolute;
+   left: 0px;
+   width: 76px;
+   height: 76px;
+   }
+
+.our-impact__impact_boarded::before{
+   content: url('../img/dog_house.svg');
+   position: absolute;
+   left: 0px;
+   width: 76px;
+   height: 76px;
+}
+.our-impact__impact_trained::before {
+   content: url('../img/dog_leash.svg');
+   position: absolute;
+   left: 0px;
+   width: 76px;
+   height: 76px;
+}
+.our-impact__impact_meals::before {
+   content: url('../img/dog_food_bowl.svg');
+   position: absolute;
+   left: 0px;
+   width: 76px;
+   height: 76px;
+}
+
+.our-impact__price {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+}
+.our-impact__service {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color:#5D62B5;
+}
+
+
+.our-promise {
+}
+.our-promise__container {
+   display: flex;
+   position: relative;
+   max-width: 1440px;
+   background-color:#F5F5F5;
+   margin: 0 auto;
+   padding: 128px 210px;
+   flex-direction: column;
+}
+.our-promise__subtitle {
+   position: relative;
+   max-width: 436px;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+   padding-left: 32px;
+   color:rgba(93, 98, 181, 1)
+}
+
+.our-promise__subtitle::before{
+   content:url('../img/mark2verline.svg');
+   width: 17px;
+   height: 17px;
+   position: absolute;
+   left: -6px;
+   top: -1px;
+}
+.our-promise__title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   max-width: 583px;
+   margin-bottom: 80px;
+   color: rgba(0, 0, 0, 1);
+}
+.our-promise__content {
+   display: flex;
+   gap: 24px;
+   flex-wrap: wrap;
+   width: 100%;   
+}
+.our-promise__promise {
+   position: relative;
+   padding: 0px 0px 0px 86px;
+   flex: 0 0 324px;
+}
+.our-promise__promise_love-care::before{
+   content: url('../img/dog_love.svg');
+   position: absolute;
+   top: -4px;
+   left: 0px;
+   width: 63px;
+   height: 63px;
+}
+.our-promise__promise_veterinarian::before {
+   content: url('../img/dog_vet.svg');
+   position: absolute;
+   top: -4px;
+   left: 0px;
+   width: 63px;
+   height: 63px;
+}
+.our-promise__promise_live-stream::before {
+   content: url('../img/dog_stream.svg');
+   position: absolute;
+   top: -4px;
+   left: 0px;
+   width: 63px;
+   height: 63px;
+}
+.our-promise__item {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: rgba(242, 114, 111, 1);
+   margin-bottom: 20px;
+}
+.our-promise__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color:rgba(75, 75, 75, 1);
+}
